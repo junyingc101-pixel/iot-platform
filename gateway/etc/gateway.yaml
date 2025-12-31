@@ -1,0 +1,13 @@
+Name: gateway
+Host: 0.0.0.0
+Port: 8080
+UserRpc:
+  Etcd:
+    Hosts:
+      - 192.168.1.8:2379
+    Key: user.rpc
+DeviceRpc:
+  Etcd:
+    Hosts:
+      - 192.168.1.8:2379
+    Key: device.rpc
